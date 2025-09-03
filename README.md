@@ -1,16 +1,14 @@
 # 🚀 Monfig
 
-A short, concise description of your project. What does it do and why is it useful?
+Here you can find the entire web frontend of Monfig Software, written with Vue / NuxtJS.
 
 <div align="center">
 
-![GitHub License](https://img.shields.io/github/license/username/project-name?style=for-the-badge)
-![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/username/project-name?style=for-the-badge)
-![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/username/project-name/main.yml?style=for-the-badge)
-![GitHub issues](https://img.shields.io/github/issues/username/project-name?style=for-the-badge)
-![GitHub pull requests](https://img.shields.io/github/issues-pr/username/project-name?style=for-the-badge)
-![GitHub stars](https://img.shields.io/github/stars/username/project-name?style=for-the-badge)
-![GitHub forks](https://img.shields.io/github/forks/username/project-name?style=for-the-badge)
+![GitHub License](https://img.shields.io/github/license/monfig-oss/frontend?style=for-the-badge)
+![GitHub issues](https://img.shields.io/github/issues/monfig-oss/frontend?style=for-the-badge)
+![GitHub pull requests](https://img.shields.io/github/issues-pr/monfig-oss/frontend?style=for-the-badge)
+![GitHub stars](https://img.shields.io/github/stars/monfig-oss/frontend?style=for-the-badge)
+![GitHub forks](https://img.shields.io/github/forks/monfig-oss/frontend?style=for-the-badge)
 
 </div>
 
