@@ -15,10 +15,6 @@ issue_templates:
     description: Suggest a new feature or improvement
     file: feature_request.md
     labels: ["✨ enhancement"]
-  - name: 📚 Documentation
-    description: Report missing, unclear, or outdated documentation
-    file: documentation.md
-    labels: ["📚 documentation"]
   - name: 📝 General Issue
     description: Open a general issue (discussion, question, idea, etc.)
     file: general_issue.md
