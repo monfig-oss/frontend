@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import "tailwindcss";
+
+@theme {
+    --color-primary: rgb(90 158 71);
+    --color-secondary: rgb(70, 128, 51);
+}
+
+@layer utilities {
+    .custom-input {
+        @apply block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-primary focus:border-primary;
+    }
+}
+
+svg circle {
+    fill: none !important;
+}
+
+* {
+    font-family: 'Montserrat', sans-serif;
+}
