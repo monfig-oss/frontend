@@ -16,6 +16,10 @@ svg circle {
     fill: none !important;
 }
 
-* {
-    font-family: 'Montserrat', sans-serif;
+*:not(.cm-editor):not(.cm-editor * ) {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.editor {
+    font-family: 'Fira Code', 'JetBrains Mono', 'Consolas', 'monospace' !important;
 }

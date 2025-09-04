@@ -68,6 +68,11 @@ const copyPassword = () => {
                     <option value="admin">Admin</option>
                 </Select>
             </div>
+            <div class="text-sm text-gray-600">
+                <p><strong>User:</strong> No extra permissions, only if assigned to a project</p>
+                <p><strong>Manager:</strong> Can view, edit, create and delete projects</p>
+                <p><strong>Admin:</strong> Full access to all projects and users</p>
+          </div>
         </div>
 
         <div v-if="isCreated.success" class="p-4 text-center bg-primary/10 rounded text-black/70">

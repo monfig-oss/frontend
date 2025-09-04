@@ -1,6 +1,9 @@
 <script setup lang="ts">
 import { ref, computed } from 'vue';
+import { useProjectStore } from '~/stores/project.store';
 const {user} = useUser();
+
+const {selectedProject} = useProjectStore();
 
 const fakeSchemas = [
 	{
@@ -59,13 +62,22 @@ const extraButtons = [
 	}
 ]
 
+const projectStore = useProjectStore();
+
+const refreshSchemas = () => {
+	console.log("refresh schemas for project ", projectStore.selectedProject?.name)
+}
+import { icons as mdiIcons } from '@iconify-json/iconoir/icons.json';
+
+const allIcons = Object.keys(mdiIcons);
+console.log(allIcons)
 </script>
 
 <template>
 	<div class="bg-white w-64 border-r border-gray-200 flex flex-col">
 		<div class=" flex flex-col">
 			<div class="px-4 py-3 border-b border-gray-200">
-				<ProjectSwitcher />
+				<ProjectSwitcher @project-selected="refreshSchemas"/>
 			</div>
 
 			<div class="px-4 mb-2 mt-4">
