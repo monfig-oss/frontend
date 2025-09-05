@@ -7,8 +7,8 @@ import DashboardSidebar from "~/components/DashboardSidebar.vue";
 		<DashboardHeader/>
 		<div class="flex flex-1">
 			<DashboardSidebar/>
-			<div class="flex-1 p-6">
-				<div class="p-8">
+			<div class="flex-1 p-6 h-full">
+				<div class="p-8 h-full">
 					<slot></slot>
 				</div>
 			</div>

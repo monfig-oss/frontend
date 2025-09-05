@@ -17,7 +17,8 @@ const props = defineProps({
 const variants = {
 	primary: 'bg-primary hover:bg-secondary disabled:bg-secondary/60 text-white',
 	secondary: 'bg-gray-200 hover:bg-gray-300 disabled:bg-gray-300/60 text-gray-800',
-	danger: 'bg-red-700 hover:bg-red-800 text-white'
+	danger: 'bg-red-700 hover:bg-red-800 text-white',
+	primaryOutline: 'border border-primary text-primary hover:bg-primary hover:text-white'
 }
 
 const getButtonClass = () => {
